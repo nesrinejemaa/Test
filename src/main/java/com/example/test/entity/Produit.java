@@ -12,7 +12,7 @@ public class Produit {
 
     private String nom;
     private double prix;
-
+    private int quantite;
     @ManyToOne
     @JoinColumn(name = "categorie_id")
     private Categorie categorie;
